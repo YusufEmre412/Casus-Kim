@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="countdown_times">
+        <item>3 dakika</item>
+        <item>5 dakika</item>
+        <item>8 dakika</item>
+        <item>10 dakika</item>
+    </string-array>
+    <string-array name="countdown_times_values">
+        <item>180000</item>
+        <item>300000</item>
+        <item>480000</item>
+        <item>600000</item>
+    </string-array>
+</resources>

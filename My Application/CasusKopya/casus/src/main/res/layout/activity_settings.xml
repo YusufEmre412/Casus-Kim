@@ -1,0 +1,53 @@
+<!-- res/layout/activity_settings.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="                  Ayarlar"
+        android:textColor="#ABABAB"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        />
+
+    <!-- Boşluk koymak için kullandım -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:text="a"
+        android:textColor="#00390369"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+        
+    <TextView
+        android:id="@+id/themeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:text="Tema"
+        android:textColor="#BDBDBD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/deliRoleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="   Deli Rolü"
+        android:textColor="#BDBDBD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- Ayar seçenekleri buraya eklenecek -->
+</LinearLayout>
